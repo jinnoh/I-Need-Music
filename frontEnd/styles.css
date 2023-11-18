@@ -1,7 +1,38 @@
 body{
     display: flex;
-    flex-direction: column;
-    margin: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
     border: 0px;
     background: #f7f6f2;
+    gap: 200px;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.imageScroller{
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f7f6f2;
+}
+
+.image{
+    white-space: nowrap;
+}
+
+.imageScroller img{
+    height: 300px;
+    width: 400px;
+    margin: 0 40px;
+}
+
+.aqua {
+    background-color: gray;
 }
