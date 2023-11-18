@@ -5,3 +5,25 @@ body{
     border: 0px;
     background: #f7f6f2;
 }
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    background: #FFFFF0;
+}
+
+ul {
+    margin: 10;
+    padding: 10;
+}
+
+ul li {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background: #eee;
+}
