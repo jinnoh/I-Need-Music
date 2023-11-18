@@ -1,11 +1,46 @@
 body{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 100px;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 200px;
     border: 0px;
     background: #f7f6f2;
+    border-color: black;
+    border-style: solid;
+    
+}
+.header {
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-self: flex-start;
+}
+.todo-list {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 40px;
+    background: #f7f6f2;
+}
+
+ul {
+    margin: 10;
+    padding: 10;
+}
+
+ul li {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background: #eee;
     gap: 200px;
 }
 
@@ -14,8 +49,13 @@ body{
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 70px;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    margin-right: 100px;
+
 }
 
 .imageScroller{
@@ -32,6 +72,15 @@ body{
     transition: 5s;
 }
 
-.aqua {
+.gray {
     background-color: gray;
+}
+
+#task-div {
+    margin-top: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.quote {
 }
