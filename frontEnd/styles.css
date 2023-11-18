@@ -11,6 +11,7 @@ body{
 
 .middle{
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
@@ -20,17 +21,15 @@ body{
 .imageScroller{
     overflow: hidden;
     padding: 60px 0;
-    background: #f7f6f2;
 }
 
-.image{
-    white-space: nowrap;
-}
 
-.imageScroller img{
-    height: 300px;
-    width: 400px;
+
+#image{
+    height: 600px;
+    width: 800px;
     margin: 0 40px;
+    transition: 5s;
 }
 
 .aqua {
