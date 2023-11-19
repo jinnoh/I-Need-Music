@@ -148,6 +148,37 @@ ul li {
 
 }
 
+.container-timer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.timer-title {
+    font-size: 48px;
+}
+
+.timer-duration {
+    font-size: 64px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #8b7342;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
 .imageScroller{
     overflow: hidden;
     padding: 60px 0;
