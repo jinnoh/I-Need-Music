@@ -1,14 +1,35 @@
+*{
+    font-family: "Monaco", Verdana, Lucida Console;
+}
+
 body{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: start;
-    margin-top: 200px;
+    justify-content: center;
+    align-items: space-between;
+    gap: 70px;
+    padding: 35px;
     border: 0px;
     background: #f7f6f2;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-style: solid;
 }
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 740px;
+    border-radius: 25px;
+}
+
+#ineed{
+    margin-bottom: 100px;
+    font-size: 55px;
+}
+
 .header {
     border-style: solid;
     border-color: black;
@@ -16,14 +37,16 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-right: 50px;
-    padding-left: 50px;
-    align-self: flex-start;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+    height: 700px;
 }
 
 .todo-list {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 h2 {
@@ -37,23 +60,18 @@ h2 {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: space-evenly;
     gap: 70px;
-    flex-direction: column;
     border-style: solid;
     border-color: black;
-    margin-right: 100px;
-}
-
-.imageScroller{
-    overflow: hidden;
-    padding: 60px 0;
+    padding: 60px;
+    border-radius: 25px;
 }
 
 #image{
-    height: 300px;
-    width: 400px;
-    margin: 0 40px;
+    height: 270px;
+    width: 480px;
+    margin: 0 30px;
     transition: 5s;
 }
 
@@ -61,15 +79,10 @@ h2 {
     background-color: gray;
 }
 
-#task-div {
-    margin-top: 200px;
-    border-style: solid;
-    border-color: black;
-}
-
 label {
-    font-weight:bolder;
+    font-weight:normal;
     margin-bottom: -2px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 #search-bar {
@@ -84,10 +97,81 @@ label {
     border-style: dotted;
 }
 
-#remove-button {
-    transition-duration: 0.4s;
+.header {
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    align-self: center;
 }
 
-#remove-button:hover {
-    background-color: black;
+h2 {
+    font-size: 40px;
+    background: #f7f6f2;
+}
+
+ul {
+    margin: 10;
+    padding: 10;
+}
+
+ul li {
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    background: #eee;
+    gap: 200px;
+    list-style-type: size;
+}
+
+.container-timer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 400px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.timer-title {
+    font-size: 48px;
+}
+
+.timer-duration {
+    font-size: 64px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: #8b7342;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.gray {
+    background-color: gray;
+}
+
+#task-div {
+    border-style: solid;
+    border-color: black;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #f7f6f2;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
