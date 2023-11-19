@@ -24,6 +24,6 @@ addToList.addEventListener("keypress", function(event){
         var entry = document.createElement('li');
         entry.textContent = listItem;
         list.appendChild(entry);
-        
+        addToList.value = '';
     }
 });
