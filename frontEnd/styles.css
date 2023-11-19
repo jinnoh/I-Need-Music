@@ -40,6 +40,7 @@ body{
     width: 100%;
     height: 500px;
 }
+
 .todo-list {
     display: flex;
     flex-direction: column;
@@ -67,7 +68,7 @@ h2 {
 #image{
     height: 300px;
     width: 400px;
-    margin: 0 40px;
+    margin: 0 30px;
     transition: 5s;
 }
 
@@ -82,8 +83,9 @@ h2 {
 }
 
 label {
-    font-weight:bolder;
+    font-weight:normal;
     margin-bottom: -2px;
+    font-family: "Gill Sans", sans-serif;
 }
 
 #search-bar {
@@ -126,6 +128,7 @@ ul li {
     font-size: 20px;
     background: #eee;
     gap: 200px;
+    list-style-type: size;
 }
 
 .container-timer {
