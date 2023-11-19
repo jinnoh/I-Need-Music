@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: space-between;
     gap: 70px;
-    padding: 35px;
+    padding: 0px;
     border: 0px;
     background: #f7f6f2;
     border-color: rgb(0, 0, 0);
@@ -21,7 +21,7 @@ body{
     align-items: center;
     padding: 50px;
     width: 100%;
-    height: 740px;
+    height: 760px;
     border-radius: 25px;
 }
 
@@ -38,10 +38,9 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 50px;
-    align-items: start;
+    align-items: flex-start;
     width: 100%;
-    height: 700px;
-
+    height: 760px;
 }
 
 .todo-list {
@@ -67,6 +66,7 @@ h2 {
     border-color: black;
     padding: 60px;
     border-radius: 25px;
+    height: 740px;
 }
 
 #image{
@@ -74,6 +74,7 @@ h2 {
     width: 480px;
     margin: 0 30px;
     transition: 5s;
+    margin-bottom: -100px;
 }
 
 .gray {
@@ -87,9 +88,12 @@ label {
 }
 
 #search-bar {
+    margin-top: -50px;
     border-color: black;
     border-radius: 15px;
     border-style: dotted;
+    height: 50px;
+    width: auto;
 }
 
 #input-button {
@@ -107,6 +111,7 @@ label {
     justify-content: center;
     padding: 60px;
     align-self: center;
+    height: 740px;
 }
 
 h2 {
@@ -115,14 +120,15 @@ h2 {
 }
 
 ul {
-    margin: 10;
+    margin-top: -50px;
     padding: 10;
 }
 
 ul li {
+    
     position: relative;
     padding: 10px;
-    font-size: 15px;
+    font-size: 25px;
     gap: 200px;
 }
 
@@ -141,10 +147,12 @@ ul li {
     display: flex;
     flex-direction: row;
     gap: 35px;
+    margin-top: -50px;
 }
 
 .timer-title {
     font-size: 48px;
+    margin-bottom: -100px;
 }
 
 .timer-duration {
@@ -166,10 +174,6 @@ button:hover {
     opacity: .7;
 }
 
-.gray {
-    background-color: gray;
-}
-
 #task-div {
     border-style: solid;
     border-color: black;
@@ -182,4 +186,13 @@ audio::-webkit-media-controls-panel{
 audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
     display: none;
+}
+
+#remove-button {
+    background-color: black;
+}
+
+label {
+    margin-top: -50px;
+    font-family: "Monaco", Verdana, Lucida Console;
 }
