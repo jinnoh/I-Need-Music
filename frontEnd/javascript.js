@@ -9,7 +9,7 @@ lightButton.addEventListener("click", darkMode);
 
 //scroll thru images
 let image = document.getElementById("image");
-let images = ["ivory.jpg", "ivory2.jpg", "ivory3.jpg"];
+let images = ["anime-cute.gif", "fall.gif", "tumblr_aefa0affcfdd771d207cab1703e5708a_2c30bc93_540.gif", "tumblr_fb536bb6877fd39645b1259a2132ca66_774b6273_540.gif"];
 setInterval(function(){
     let num = Math.floor(Math.random() * images.length);
     image.src = images[num];
