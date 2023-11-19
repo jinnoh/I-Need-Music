@@ -12,7 +12,6 @@ setInterval(function(){
     image.src = images[num];
 }, 5000)
 
-//implement audio player
 const lightButton = document.getElementById("b1");
 lightButton.addEventListener("click", darkMode);
 
