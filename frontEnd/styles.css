@@ -122,10 +122,8 @@ ul {
 ul li {
     position: relative;
     padding: 10px;
-    font-size: 20px;
-    background: #eee;
+    font-size: 10px;
     gap: 200px;
-    list-style-type: size;
 }
 
 #container-timer {
@@ -157,7 +155,7 @@ button {
     font-size: 24px;
     padding: 10px 20px;
     margin: 10px;
-    color: white;
+    color: gray;
     background-color: #8b7342;
     border: none;
     border-radius: 20px;
