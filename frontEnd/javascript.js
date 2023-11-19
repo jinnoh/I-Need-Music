@@ -28,9 +28,11 @@ addToList.addEventListener("keypress", function(event){
         removeButton.id = "remove-button";
         entry.appendChild(removeButton);
         removeButton.style.borderStyle = "solid";
-        removeButton.textContent = 'X';
-        removeButton.style.backgroundColor = "transparent";
+        removeButton.style.fontSize = "10px";
+        removeButton.style.backgroundColor = "teal";
         removeButton.style.borderRadius = "25px";
+        removeButton.style.height = "15px";
+        removeButton.style.width = "15px";
         removeButton.addEventListener("click", function(){
             const removeFromList = document.querySelector("li");
             removeFromList.remove();
