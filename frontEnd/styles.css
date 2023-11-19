@@ -70,5 +70,30 @@ h2 {
     border-color: black;
 }
 
-.quote {
+<<<<<<< HEAD
+audio::-webkit-media-controls-panel{
+    background-color: #f7f6f2;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
+}
+=======
+label {
+    font-weight:bolder;
+    margin-bottom: -2px;
+}
+
+#search-bar {
+    border-color: black;
+    border-radius: 15px;
+    border-style: dotted;
+}
+
+#input-button {
+    border-color: black;
+    border-radius: 15px;
+    border-style: dotted;
+>>>>>>> 054460023b9ef9dbc3832b2e4d712ee3a2e880f5
 }
