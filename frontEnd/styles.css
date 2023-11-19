@@ -31,18 +31,6 @@ h2 {
     background: #f7f6f2;
 }
 
-ul {
-    margin: 10;
-    padding: 10;
-}
-
-ul li {
-    position: relative;
-    padding: 10px;
-    font-size: 20px;
-    background: #eee;
-    gap: 200px;
-}
 
 .middle{
     display: flex;
@@ -82,5 +70,19 @@ ul li {
     border-color: black;
 }
 
-.quote {
+label {
+    font-weight:bolder;
+    margin-bottom: -2px;
+}
+
+#search-bar {
+    border-color: black;
+    border-radius: 15px;
+    border-style: dotted;
+}
+
+#input-button {
+    border-color: black;
+    border-radius: 15px;
+    border-style: dotted;
 }
