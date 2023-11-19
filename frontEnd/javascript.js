@@ -5,6 +5,7 @@ function darkMode(){
     element.classList.toggle("gray");
 }
 
+//implements image scroller
 lightButton.addEventListener("click", darkMode);
 
 let image = document.getElementById("image");
@@ -13,3 +14,5 @@ setInterval(function(){
     let num = Math.floor(Math.random() * images.length);
     image.src = images[num];
 }, 5000)
+
+//implement audio player

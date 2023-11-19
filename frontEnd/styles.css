@@ -82,5 +82,11 @@ ul li {
     border-color: black;
 }
 
-.quote {
+audio::-webkit-media-controls-panel{
+    background-color: #f7f6f2;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    display: none;
 }
