@@ -10,9 +10,24 @@ body{
     gap: 90px;
     border: 0px;
     background: #f7f6f2;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     border-style: solid;
 }
+
+.tasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+#ineed{
+    margin-bottom: 100px;
+    font-size: 55px;
+}
+
 .header {
     border-style: solid;
     border-color: black;
@@ -22,6 +37,8 @@ body{
     justify-content: center;
     gap: 50px;
     align-items: center;
+    width: 100%;
+    height: 500px;
 }
 .todo-list {
     display: flex;
@@ -134,7 +151,7 @@ button {
     color: white;
     background-color: #8b7342;
     border: none;
-    border-radius: 3px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
