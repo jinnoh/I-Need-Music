@@ -6,9 +6,6 @@ function darkMode(){
 const lightButton = document.getElementById("b1");
 lightButton.addEventListener("click", darkMode);
 
-const lightButton = document.getElementById("b1");
-lightButton.addEventListener("click", darkMode);
-
 //scroll thru images
 let image = document.getElementById("image");
 let images = ["anime-cute.gif", "fall.gif", "tumblr_aefa0affcfdd771d207cab1703e5708a_2c30bc93_540.gif", "tumblr_fb536bb6877fd39645b1259a2132ca66_774b6273_540.gif"];
@@ -18,7 +15,6 @@ setInterval(function(){
 }, 5000)
 
 //add to TODO list
-//to do list
 var addToList = document.getElementById("search-bar");
 addToList.addEventListener("keypress", function(event){
     if(event.key === "Enter"){
@@ -28,14 +24,6 @@ addToList.addEventListener("keypress", function(event){
         entry.textContent = listItem;
         list.appendChild(entry);
         addToList.value = '';
-        const removeButton = document.createElement("button");
-        removeButton.className = "remove-button";
-        entry.appendChild(removeButton);
-        removeButton.style.borderStyle = "solid";
-        removeButton.textContent = 'X';
-        removeButton.style.backgroundColor = "transparent";
-        removeButton.style.borderRadius = "25px";
-
         const removeButton = document.createElement("button");
         removeButton.id = "remove-button";
         entry.appendChild(removeButton);
@@ -49,8 +37,6 @@ addToList.addEventListener("keypress", function(event){
         })
     }
 });
-
-
 
 const timerstart = document.getElementById("timer-start")
 const timerstop = document.getElementById("timer-stop")
