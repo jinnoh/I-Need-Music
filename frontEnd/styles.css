@@ -31,18 +31,6 @@ h2 {
     background: #f7f6f2;
 }
 
-ul {
-    margin: 10;
-    padding: 10;
-}
-
-ul li {
-    position: relative;
-    padding: 10px;
-    font-size: 20px;
-    background: #eee;
-    gap: 200px;
-}
 
 .middle{
     display: flex;
@@ -82,11 +70,5 @@ ul li {
     border-color: black;
 }
 
-audio::-webkit-media-controls-panel{
-    background-color: #f7f6f2;
-}
-
-audio::-webkit-media-controls-current-time-display,
-audio::-webkit-media-controls-time-remaining-display {
-    display: none;
+.quote {
 }
