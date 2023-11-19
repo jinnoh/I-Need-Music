@@ -1,12 +1,10 @@
-const lightButton = document.getElementById("b1");
-
+//switch background color
 function darkMode(){
     var element = document.body;
     element.classList.toggle("gray");
 }
 
-lightButton.addEventListener("click", darkMode);
-
+//scroll thru images
 let image = document.getElementById("image");
 let images = ["ivory.jpg", "ivory2.jpg", "ivory3.jpg"];
 setInterval(function(){

@@ -10,8 +10,17 @@
     <body>
         <div id = "task-div" class="tasks">
             <div id="audioPlayer">
-                <audio controls>
-                    <source src="team astro in repair.mp3">
+                <p id="lofi">lofi beats</p>
+                <audio controls loop controlsList="nodownload noplaybackrate" preload="auto">
+                    <source src="20 min of  lofi hip-hop to relaxstudy to.mp3" type="audio/mpeg">
+                </audio>
+                <p id="rain">rain</p>
+                <audio controls loop controlsList="nodownload noplaybackrate" preload="auto">
+                    <source src="Relaxing rain sounds for sleeping 20 minute.mp3" type="audio/mpeg">
+                </audio>
+                <p id="brown">brown noise</p>
+                <audio controls loop controlsList="nodownload noplaybackrate" preload="auto">
+                    <source src="20 Minutes Brown Noise.mp3" type="audio/mpeg">
                 </audio>
             </div>
             <div id = "dark-mode">
@@ -39,12 +48,11 @@
         </div>
 
         <div class="header">
-            <div id="todo-list">
+            <div class="todo-list">
                 <h2>TO-DO</h2>
-                <ul>
-                    <li>Go to gym</li>
-                    <li>Eat lunch </li>
-                    <li>Walk Dogs</li>
+                <label>Add some tasks</label>
+                <input type = "text" id = "search-bar" placeholder="enter...">
+                <ul id = "todo">
                 </ul>
             </div>
         </div>
