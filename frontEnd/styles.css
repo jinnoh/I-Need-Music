@@ -123,18 +123,25 @@ ul {
 ul li {
     position: relative;
     padding: 10px;
-    font-size: 20px;
-    background: #eee;
+    font-size: 10px;
     gap: 200px;
-    list-style-type: size;
 }
 
-.container-timer {
+#container-timer {
     display: flex;
+    flex-direction: column;
+    gap: 35px;
     margin: 0 auto;
     max-width: 400px;
     justify-content: center;
+    align-items: center;
     padding: 20px;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
 }
 
 .timer-title {
