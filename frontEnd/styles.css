@@ -1,3 +1,7 @@
+*{
+    font-family: "Monaco", Verdana, Lucida Console;
+}
+
 body{
     display: flex;
     flex-direction: row;
@@ -8,7 +12,6 @@ body{
     background: #f7f6f2;
     border-color: black;
     border-style: solid;
-    
 }
 .header {
     border-style: solid;
